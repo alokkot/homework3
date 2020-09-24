@@ -17,12 +17,10 @@ body{
   background-color: #DDDDDD;
   background-size: cover ;
   background-position: center;
-  
 }
 
 main{
   margin-bottom: 100px;
-  
 }
 
 h1{
@@ -38,8 +36,6 @@ caption{
 
 p{
   padding-top: 15px;
-  
-
 }
 
 a{
@@ -59,9 +55,7 @@ table{
     margin-right: auto;
     text-align: center;
     border: 2px solid #000000;
-    border-radius: 10px ;
-    
-    
+    border-radius: 10px ;   
 }
 
 .colhead{
@@ -79,36 +73,31 @@ table{
   border-left: 2px;
   border-right: 2px;
   border-bottom: 2px;
-
 }
 
 td{
   padding: 10px;
-  border-top:2px #000000 ;
-  
-}
+  border-top:2px #000000 ;}
 
 
 
-tr:nth-child(even) {background-color: #D1D1D1;
-}
+tr:nth-child(even) {background-color: #D1D1D1;}
 
-tr:nth-child(odd) {background-color: transparent;
-}
+tr:nth-child(odd) {background-color: transparent;}
 
 
 tr:hover {
   background-color: rgba(126, 8, 48, 0.25);
-
 }
 
 *{
-
 }
 
-thead tr:first-child th:first-child{border-radius: 10px 0 0 0;
-}
+thead tr:first-child th:first-child{border-radius: 10px 0 0 0;}
+
 thead tr:first-child th:last-child{border-radius: 0 10px 0 0;}
+tbody tr:last-child td :last-child{border-bottom-right-radius:10px ;}
+tbody tr:last-child th :first-child{border-bottom-left-radius:10px ;}
 
 
 
