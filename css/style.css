@@ -46,40 +46,51 @@ body a{
   text-decoration-style: wavy;
 
 }
-a:focus {
-  border-style: 3px dashed;
+*:focus {
+  border-style: dashed;
+  font-weight: 3px;
   color:  #417243;
 }
 
 table{
     margin-left: auto ;
     margin-right: auto;
-    text-align: center;
     border: 2px solid #000000;
+    border-collapse: separate;
     border-radius: 10px ;
-    border-bottom: 0px;  
+    
 }
 
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;
-  vertical-align: center;
+  vertical-align: middle;
   text-align: center;
   text-transform: uppercase;
   background-color: #7e0820;
-  
 }
 
 .rowhead{
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
   
-  border-bottom: 2px solid black;
 }
 
 td{
-  padding: 10px;
-  border-top:2px #000000 ;
-  border-bottom: 2px solid black;}
+  padding: 10px 10px 10px 10px;
+  border-top:2px solid #000000 ;
+  text-align: center;
+}
+
+tr{
+  text-align: center;
+}
+th {
+  padding: 10px 10px 10px 10px;
+  font-weight: bold;
+  vertical-align: middle;
+}
 
 tr:nth-child(even) {background-color: #D1D1D1;}
 
@@ -89,8 +100,6 @@ tr:hover {
   background-color: rgba(126, 8, 48, 0.25);
 }
 
-*{
-}
 th.rowhead{
   border-right: 2px solid black;
 }
@@ -106,6 +115,8 @@ tr:last-of-type td:last-of-type {
   border-bottom-right-radius: 10px;
 }
 
+*{
+}
 
 footer{
   width:100%;
