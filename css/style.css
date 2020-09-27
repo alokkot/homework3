@@ -17,6 +17,7 @@ body{
   background-color: #DDDDDD;
   background-size: cover ;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -112,7 +113,8 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
 }
 
